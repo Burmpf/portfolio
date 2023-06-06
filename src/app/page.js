@@ -24,7 +24,9 @@ export default function Home() {
             Full-Stack Software Developer
           </h2>
           {/* <h2 className="text-xl">Portfolio by Keyan Tabor</h2> */}
+          <br />
           <Skills />
+          <br />
           <div className="flex justify-center space-x-8 ">
             <h3>
               <Link
