@@ -14,7 +14,7 @@ import github from "src/app/images/github-142-svgrepo-com (1).svg";
 
 export default function Skills() {
   return (
-    <div className="flex">
+    <div className="flex justify-center h-screen w-full">
       <Image
         alt="javascript icon"
         width={30}
