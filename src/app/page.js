@@ -4,6 +4,7 @@ import Projects from "./components/projects/page";
 import About from "./components/about/page";
 import Landing from "./components/landing/page";
 import Header from "./components/header/page";
+import Contact from "./components/contact/page";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </main>
   );
