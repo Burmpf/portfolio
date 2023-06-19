@@ -29,7 +29,7 @@ export default function Header(){
     </a>
   </li>
   <li>
-    <a class="tooltip" data-tip="Contact">
+    <a class="tooltip" data-tip="Contact" href="mailto:keyantabor98@gmail.com">
       <Image alt="about me" width={20} height={20} src={contact}/>
     </a>
   </li>
