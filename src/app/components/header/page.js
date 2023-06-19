@@ -1,12 +1,12 @@
 import Image from "next/image";
-import about from "src/app/images/about-me-icon.png";
-import skills from "src/app/images/skills-icon.png";
-import projecticon from "src/app/images/project-icon.png";
-import contact from "src/app/images/contact-mail-icon.png";
+import about from "src/app/images/about-me-icon.svg";
+import skills from "src/app/images/skills-icon.svg";
+import projecticon from "src/app/images/project-icon.svg";
+import contact from "src/app/images/contact-icon.svg";
 
 export default function Header(){
     return (
-        <div className=" w-full flex justify-center">
+        <div className=" w-full fixed  flex justify-center">
         <ul class="  menu menu-horizontal bg-base-200/75 rounded-box mt-6">
   <li>
     <a class="tooltip" data-tip="Home">
