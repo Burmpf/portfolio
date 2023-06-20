@@ -34,7 +34,7 @@ export default function Projects() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Target Practice</h2>
-            <p>One of the first projects I worked on, this site is a recreation of the popular game "Duck Hunt" written in raw JavaScript</p>
+            <p>One of the first projects I worked on, this site is a recreation of the popular game &ldquo;Duck Hunt&rdquo; written in raw JavaScript</p>
             <div className="card-actions justify-end">
             <button className="btn btn-primary"><Link href="https://cf201-team-black.github.io/target-practice/" target="_blank" >Visit</Link></button>
             </div>
