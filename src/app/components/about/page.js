@@ -26,7 +26,7 @@ export default function About() {
               education. I began with college studies and an internship in
               industrial mechanics before transitioning into a field that truly
               ignited my passion: software development. This discipline has
-              enabled me to contribute significantly to areas I'm fervent about
+              enabled me to contribute significantly to areas I&apos;m fervent about
               and has redefined my professional path.
             </p>
           </div>
