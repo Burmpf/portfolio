@@ -4,7 +4,7 @@ import whitandi from "src/app/images/me-whit.jpg";
 export default function About() {
   return (
     <>
-      <div className="hero min-h-screen">
+      <div id="about" className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
           <Image
             src={whitandi}

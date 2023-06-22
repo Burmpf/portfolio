@@ -25,29 +25,22 @@ export default function Landing() {
               <div className="flex justify-center space-x-8 ">
                 <h3>
                   <Link
-                    href="/components/projects"
+                    href="#about"
                     className=" mr-4 hover:bg-gradient-to-r bg-clip-text text-transparent from-red-500 via-blue-500 to-green-500 animate-text bg-white"
                   >
                     About
                   </Link>
                   <Link
-                    href="/components/projects"
+                    href="#skills"
                     className="mr-4 hover:bg-gradient-to-r bg-clip-text text-transparent from-red-500 via-blue-500 to-green-500 animate-text bg-white"
                   >
                     Skills
                   </Link>
                   <Link
-                    href="/components/projects"
+                    href="#projects"
                     className="mr-4 hover:bg-gradient-to-r bg-clip-text text-transparent from-red-500 via-blue-500 to-green-500 animate-text bg-white"
                   >
                     Projects
-                  </Link>
-                  
-                  <Link
-                    href="/components/projects"
-                    className="mr-4 hover:bg-gradient-to-r bg-clip-text text-transparent from-red-500 via-blue-500 to-green-500 animate-text bg-white"
-                  >
-                    Contact
                   </Link>
                 </h3>
                 </div>

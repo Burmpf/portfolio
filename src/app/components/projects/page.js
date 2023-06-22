@@ -7,8 +7,9 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <main>
-      <div className=" w-full h-screen">
-        <h1 className="text-5xl flex justify-center pb-10">
+        <div className="h-5"></div>
+      <div id="projects" className="w-full h-screen">
+        <h1 className="text-5xl flex justify-center mt-30 pb-10">
           Projects
         </h1>
 
