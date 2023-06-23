@@ -4,12 +4,12 @@ import whitandi from "src/app/images/me-whit.jpg";
 export default function About() {
   return (
     <>
-      <div className="hero min-h-screen">
+      <div id="about" className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
           <Image
             src={whitandi}
             alt="picture of my wife and I"
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-sm rounded-lg sm:w-[250]:h-[250]"
           ></Image>
           <div>
             <h1 className="text-5xl font-bold">About Me</h1>

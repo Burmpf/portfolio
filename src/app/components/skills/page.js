@@ -14,7 +14,8 @@ import github from "src/app/images/github-142-svgrepo-com (1).svg";
 
 export default function Skills() {
   return (
-    <div className="h-screen w-full items-center">
+    <>
+    <div id="skills" className="h-screen w-full items-center">
       <h1 className="text-5xl text-center font-bold pb-20 ">Skills</h1>
       <div className="grid grid-row-3 grid-cols-4 gap-10 place-items-center">
 
@@ -80,5 +81,6 @@ export default function Skills() {
         </div>
       </div>
     </div>
+    </>
   );
 }
