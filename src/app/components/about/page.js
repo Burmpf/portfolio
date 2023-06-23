@@ -8,8 +8,10 @@ export default function About() {
         <div className="hero-content flex-col lg:flex-row">
           <Image
             src={whitandi}
+            height={500}
+            width={500}
             alt="picture of my wife and I"
-            className="max-w-sm rounded-lg sm:w-[250]:h-[250]"
+            className=" rounded-lg sm:w-[250]:h-[250]"
           ></Image>
           <div>
             <h1 className="text-5xl font-bold">About Me</h1>
