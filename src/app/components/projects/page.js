@@ -7,13 +7,13 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <main>
-      <div id="projects" className="">
+      <div id="projects" >
         <h1 className="text-5xl flex justify-center pb-10">
           Projects
         </h1>
 
 
-    <div className="flex flex-col justify-center">
+    <div className="lg:flex justify-center sm:max-md:flex-col">
         <div className="card w-96 bg-base-100 shadow-xl mr-5">
           <figure>
             <Image alt="project 1" src={openimg} height={500} width={500} ></Image>
