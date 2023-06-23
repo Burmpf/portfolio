@@ -9,7 +9,7 @@ export default function About() {
           <Image
             src={whitandi}
             alt="picture of my wife and I"
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-sm rounded-lg sm:w-[250]:h-[250]"
           ></Image>
           <div>
             <h1 className="text-5xl font-bold">About Me</h1>
