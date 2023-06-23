@@ -19,7 +19,7 @@ export default function Landing() {
                 Keyan Tabor
               </h1>
               <br />
-              <h2 className="text-4xl bg-gradient-to-r bg-clip-text text-transparent from-red-500 via-blue-500 to-green-500 animate-text">
+              <h2 className="text-4xl bg-gradient-to-r bg-clip-text text-transparent from-red-500 via-blue-500 to-green-500 animate-text text-center">
                 Full-Stack Software Developer
               </h2>
               <div className="flex justify-center space-x-8 ">

@@ -14,7 +14,7 @@ export default function About() {
             className=" rounded-lg sm:w-[250]:h-[250]"
           ></Image>
           <div>
-            <h1 className="text-5xl font-bold">About Me</h1>
+            <h1 className="text-5xl font-bold text-center">About Me</h1>
             <p className="py-6">
               My name is Keyan Tabor, and I am a full-stack software developer.
               Directly after high school, I enlisted in the United States Marine

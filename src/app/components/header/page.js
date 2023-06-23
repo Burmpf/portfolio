@@ -14,7 +14,7 @@ export default function Header() {
     <div className=" z-20 w-full fixed  flex justify-left">
       <ul class="  menu menu-collapse  bg-base-200/75 rounded-box mt-6">
         <li>
-          <a href="#landing" class="tooltip" data-tip="Home">
+          <a href="#landing" class="tooltip tooltip-right" data-tip="Home">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
@@ -32,23 +32,23 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a href="#about" class="tooltip" data-tip="About Me">
+          <a href="#about" class="tooltip tooltip-right" data-tip="About Me">
             <Image alt="about me" width={20} height={20} src={about} />
           </a>
         </li>
         <li>
-          <a href="#skills" class="tooltip" data-tip="Skills">
+          <a href="#skills" class="tooltip tooltip-right" data-tip="Skills">
             <Image alt="about me" width={20} height={20} src={skills} />
           </a>
         </li>
         <li>
-          <a href="#projects" class="tooltip" data-tip="Projects">
+          <a href="#projects" class="tooltip tooltip-right" data-tip="Projects">
             <Image alt="about me" width={20} height={20} src={projecticon} />
           </a>
         </li>
         <li>
           <a
-            class="tooltip"
+            class="tooltip tooltip-right"
             data-tip="Contact"
             href="mailto:keyantabor98@gmail.com"
           >
