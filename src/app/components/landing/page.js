@@ -5,7 +5,7 @@ import portrait from "src/app/images/self-img.jpeg";
 
 export default function Landing() {
     return (
-          <div id="landing" className="w-screen min-h-screen flex items-center justify-center">
+          <div id="landing" className=" min-h-screen flex items-center justify-center">
             <div className="flex flex-col items-center">
               <Image
                 src={portrait}

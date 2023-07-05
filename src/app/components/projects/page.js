@@ -6,8 +6,7 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <main>
-      <div id="projects" >
+      <div className="h-screen flex flex-col justify-center" id="projects" >
         <h1 className="text-5xl flex justify-center pb-10">
           Projects
         </h1>
@@ -58,6 +57,5 @@ export default function Projects() {
         
 
       </div>
-    </main>
   );
 }

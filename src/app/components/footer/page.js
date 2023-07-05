@@ -7,7 +7,7 @@ import web3 from "src/app/images/web3-profile-icon.svg";
 
 export default function Footer() {
   return (
-    <footer className="  w-full flex justify-center items-end bg-black text-gray-400">
+    <footer className=" w-full flex justify-center items-end bg-black text-gray-400">
       <p className="pr-10">&#169;2023 All Rights Reserved</p>
       <div className="flex justify-between md:place-self-center md:justify-self-end">
         <Link className="tooltip" data-tip="github" href="https://github.com/Burmpf" target="_blank"> <Image src={github} alt="github logo" height={25} width={25}></Image> </Link>

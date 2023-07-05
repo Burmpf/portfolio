@@ -11,7 +11,7 @@ import twitter from "src/app/images/twitter-logo.svg";
 
 export default function Header() {
   return (
-    <div className=" z-20 w-full fixed  flex justify-left">
+    <div className=" z-20  fixed  flex justify-left">
       <ul class="  menu menu-collapse  bg-base-200/75 rounded-box mt-6">
         <li>
           <a href="#landing" class="tooltip tooltip-right" data-tip="Home">
